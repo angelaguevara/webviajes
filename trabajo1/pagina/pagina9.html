@@ -1,0 +1,36 @@
+<!--   creacion de formularios -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<center> 
+<table bgcolor="lead" width="37%">
+<tr><td align="center"> Datos de Ingreso</td>
+	</table>
+	<table width="80%">
+<form name="fr" action="prueba">
+ <table border=1>
+ <tr><td>nombre: <td>ingrese su nombre completo<input name="nombre" size="40" 
+ 	  required pattern="[A-Z a-zñÑ]{3,30}" title="solo letras o espacio">
+ <tr><td>correo: <td>ingrese su correo<input name="nombre" size="40" 
+ 	  qreuired pattern="[A-Z a-zñÑ][@][.]" title="solo letras sin espacio">
+<tr><td>telefono<td><input name="fono" size="12"
+	pattern="[0-9]{7}" title="numero incorrecto">
+<tr><td>Nacionalidad<td>
+	<input type="radio" name="Nacionalidad" value="c">Peruano
+	<input type="radio" name="Nacionalidad" value="s">Residente
+</td>
+	<body><table border="1" align="center">
+		<tr bgcolor="green">
+			<td><font color ="white">Reservar Ahora</td>
+		</tr>
+		</table>
+ </table>
+
+</form>
+
+</center>
+</body>
+</html>
